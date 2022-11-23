@@ -9,4 +9,4 @@ let output = <span>James is 12 years old</span>;
 const myDiv = document.querySelector("#myDiv");
 
 //what   //where
-ReactDOM.render(<span>James is <strong>12</strong> years old</span>, myDiv);
+ReactDOM.render(output, myDiv);
