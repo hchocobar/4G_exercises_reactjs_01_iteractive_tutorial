@@ -29,11 +29,10 @@ BootstrapCard.propTypes = {
 ReactDOM.render(
 	<BootstrapCard
 		title="Bob Dylan"
-		imageUrl="../../.learn/assets/Dylan.png?raw=true"
-		description="Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an
-		influential figure in popular music and culture for more than five decades."
-		buttonUrl="../../.learn/assets/Dylan.png?raw=true"
-		buttonLabel="Go to Wikipedia"
+		imageUrl="https://github.com/4GeeksAcademy/react-tutorial-exercises/blob/master/.learn/assets/Dylan.png?raw=true"
+		description="Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter."
+		buttonUrl="https://en.wikipedia.org/wiki/Bob_Dylan"
+		buttonLabel="Go to wikipedia"
 	/>,
 	document.querySelector("#myDiv")
 );
