@@ -11,19 +11,16 @@ const Alert = (props) => {
 		green: "alert-success",
 	};
 	if (colorClasses[props.color] === undefined) alert(`The color ${props.color} is not in the possible list of colors`);
-
 	return (
 		<div className={`alert ${colorClasses[props.color]}`} role="alert">
 			{props.text}
 		</div>
 	);
 };
-Alert.propTypes = {
-	color: PropTypes.string,
-	text: PropTypes.string,
-};
 
-// here is where the alert component is being used, you don't have to edit this part,
+Alert.propTypes = { color: PropTypes.string, text: PropTypes.string };
+
+// Here is where the alert component is being used, you don't have to edit this part,
 // but it helps you understand what properties is the component using
 ReactDOM.render(
 	<div>

@@ -1,11 +1,10 @@
-import React from "react"; //Main React.js library
-import ReactDOM from "react-dom"; //we use ReactDOM to render into the DOM
+import React from "react"; // Main React.js library
+import ReactDOM from "react-dom"; // We use ReactDOM to render into the DOM
 
 const data = {
 	image: "../../.learn/assets/Dylan.png?raw=true",
 	cardTitle: "Bob Dylan",
-	cardDescription:
-		"Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
+	cardDescription: "Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.",
 	button: {
 		url: "https://en.wikipedia.org/wiki/Bob_Dylan",
 		label: "Go to wikipedia",
@@ -13,7 +12,7 @@ const data = {
 };
 
 let content = (
-	<div className="card m-5">
+	<div className="card m-5 col-2">
 		<img className="card-img-top" src={data.image} alt="Card image cap" />
 		<div className="card-body">
 			<h5 className="card-title">{data.cardTitle}</h5>

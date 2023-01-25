@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 const Jumbotron = (props) => {
-	//here you have to return expected html using the properties being passed to the component
+	// Here you have to return expected html using the properties being passed to the component
 	return (
 		<div className="jumbotron m-5">
 			<h1 className="display-4">{props.title}</h1>
@@ -30,6 +30,5 @@ ReactDOM.render(
 		buttonLabel="Go to the official website"
 		buttonURL="https://reactjs.org/"
 	/>,
-
 	document.querySelector("#myDiv")
 );

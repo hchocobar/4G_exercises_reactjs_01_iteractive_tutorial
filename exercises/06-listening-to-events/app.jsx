@@ -14,6 +14,6 @@ const Alert = (props) => {
 	);
 };
 
-// here is where the alert component is being used, you don't have to edit this part,
+// Here is where the alert component is being used, you don't have to edit this part,
 // but it helps you understand what properties is the component using
 ReactDOM.render(<Alert />, document.querySelector("#myDiv"));

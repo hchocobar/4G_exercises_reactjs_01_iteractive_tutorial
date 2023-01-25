@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//create your function here
+// Create your function here
 const BootstrapCard = () => {
 	return (
-		<div className="card m-5">
+		<div className="card m-5 col-2">
 			<img className="card-img-top" src="../../.learn/assets/Dylan.png?raw=true" alt="Card image cap" />
 			<div className="card-body">
 				<h5 className="card-title">Bob Dylan</h5>

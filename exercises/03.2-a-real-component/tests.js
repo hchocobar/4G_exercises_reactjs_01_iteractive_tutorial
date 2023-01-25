@@ -18,7 +18,7 @@ test("The component should return the exact HTML", () => {
   const tree = renderer.create(ReactDOM.render.mock.calls[0][0]).toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
-  className="card m-5"
+  className="card m-5 col-2"
 >
   <img
     alt="Card image cap"
